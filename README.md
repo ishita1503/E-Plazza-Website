@@ -64,7 +64,7 @@
 
 -----
 
-## SCREENSHOTS 
+## 📸 Screenshots
 
 Front page
 ![image](https://github.com/user-attachments/assets/fbd387cb-99af-4e1f-80e8-043d14efd4aa)

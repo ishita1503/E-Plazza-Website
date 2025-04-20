@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+<style>
+    .marquee {
+        background: linear-gradient(90deg, #ff4757, #ff6b81);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .brand-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+        padding: 40px;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+        border-radius: 20px;
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.9); }
+        to { opacity: 1; transform: scale(1); }
+    }
+    .brand-item {
+        text-align: center;
+        width: 180px;
+        transition: transform 0.4s ease, box-shadow 0.4s ease;
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    .brand-item img {
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    }
+    .brand-item a {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bold;
+        color: #222;
+        margin-top: 12px;
+        transition: color 0.3s ease;
+    }
+    .brand-item a:hover {
+        color: #ff4757;
+    }
+    .brand-item:hover {
+        transform: scale(1.15);
+        box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    }
+</style>
+</head>
+<body>
+<marquee class="marquee">SALE UPTO 50% ON ALL SKINCARE BRANDS!</marquee>
+
+<section id="skincare" class="category">
+    <h2 style="color: #ff4757; text-shadow: 3px 3px 8px rgba(0,0,0,0.3); font-size: 32px;">Skincare</h2>
+    <p style="color: #222; font-weight: bold; font-size: 20px;">Discover the best skincare products for your beauty routine.</p>
+    <div class="brand-container">
+        <div class="brand-item">
+            <a href="https://www.nivea.com/" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.eznhtjXJsO40D0R_mzzaDgHaHa?rs=1&pid=ImgDetMain" alt="Nivea">
+                Nivea
+            </a>
+        </div>
+        <div class="brand-item">
+            <a href="https://www.lorealparis.com/" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.ghSe14BpXlxHBmRL3SAbEAHaHa?w=376&h=376&rs=1&pid=ImgDetMain" alt="L'Oréal">
+                L'Oréal
+            </a>
+        </div>
+        <div class="brand-item">
+            <a href="https://www.clinique.com/" target="_blank">
+                <img src="https://i.pinimg.com/originals/e1/0f/98/e10f9887f90809d6c68404149053907c.jpg" alt="Clinique">
+                Clinique
+            </a>
+        </div>
+        <div class="brand-item">
+            <a href="https://www.thebodyshop.com/" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.OiAYAZc_F1IGUPJIKCqTsQHaG-?rs=1&pid=ImgDetMain" alt="The Body Shop">
+                The Body Shop
+            </a>
+        </div>
+        <div class="brand-item">
+            <a href="https://www.neutrogena.com/" target="_blank">
+                <img src="https://th.bing.com/th/id/OIP.lIy-EXdQwF_lngjycEQC0gHaHZ?rs=1&pid=ImgDetMain" alt="Neutrogena">
+                Neutrogena
+            </a>
+        </div>
+        <div class="brand-item">
+            <a href="https://www.biotherm.com/" target="_blank">
+                <img src="https://media.gq-magazine.co.uk/photos/62d93f1a2385b75b995a467a/master/w_1600%2Cc_limit/BIOTHERM_LOGO%2520HOMME_13042021_539C.jpg" alt="Biotherm">
+                Biotherm
+            </a>
+        </div>
+    </div>
+</section>
+</body>
+<html>

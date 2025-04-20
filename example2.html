@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Mall</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f8f6f3;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #ff4757, #ff6b81);
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            color: white;
+        }
+        header h1 {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 8px 16px;
+        }
+        .slider {
+            position: relative;
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+        }
+        .slides {
+            display: flex;
+            width: 200%;
+            animation: slide 10s infinite alternate;
+        }
+        .slides img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(-50%); }
+            100% { transform: translateX(0); }
+        }
+        .sections {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .box {
+            width: 300px;
+            height: 250px;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+        }
+        .box a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+        .box img {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+        .feedback {
+            margin-top: 20px;
+            padding: 20px;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+            border-radius: 15px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+        footer{
+            background-color: #ff4757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Shopping Mall</h1>
+        <nav>
+            <ul>
+                <li><a href="#skincare">Skin Care</a></li>
+                <li><a href="#clothing">Clothing</a></li>
+                <li><a href="#gaming">Gaming</a></li>
+                <li><a href="#food">Food</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <div class="slides">
+            <img src="https://dq5r178u4t83b.cloudfront.net/wp-content/uploads/sites/175/2022/02/14152625/3-%C4%B0stinye-Park-Shopping_thumb.jpg" alt="Mall 1">
+            <img src="https://a.cdn-hotels.com/gdcs/production45/d1954/fc79fb2d-5fe6-4c03-b977-02f226b8073a.jpg" alt="Mall 2">
+        </div>
+    </section>
+
+    <div class="sections">
+        <a href="skincare.html" class="box" id="skincare">
+            <img src="https://img.freepik.com/premium-vector/skin-care-logo-design-beautiful-young-woman-logo-skin-care-cosmetic-product-woman-face-logo_774567-108.jpg?w=2000" alt="Skin Care Logo">
+            Skin Care
+        </a>
+        <a href="clothing.html" class="box" id="clothing">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSwVV25GoVAqcZeLSM0VOjgRq1hwb-xaM3-gYydFLjpXJOTq9IP0QpeODb&s=10" alt="Clothing Logo">
+            Clothing
+        </a>
+        <a href="gaming.html" class="box" id="gaming">
+            <img src="https://img.freepik.com/premium-vector/creative-colorful-gaming-logo-white-background_1237858-560.jpg?w=2000" alt="Gaming Logo">
+            Gaming
+        </a>
+        <a href="food.html" class="box" id="food">
+            <img src="https://static.vecteezy.com/system/resources/previews/034/542/965/original/food-logo-design-free-vector.jpg" alt="Food Logo">
+            Food
+        </a>
+    </div>
+    <br>
+
+    <div class="feedback">
+        <a href="feedback.html">Give Feedback</a>
+    </div>
+    <br>
+    <br>
+
+    <footer>
+        <hr>
+        <p>&copy; 2025 Shopping Mall. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO E-PLAZZA</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .title {
+            color: #ffdd57;
+            font-size: 64px;
+            font-weight: 700;
+            text-shadow: 4px 4px 10px rgba(0,0,0,0.7);
+            animation: fadeIn 2s ease-in-out;
+        }
+        .subtitle {
+            color: white;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 10px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.9); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        .button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(255, 75, 75, 0.4);
+            transition: all 0.3s ease-in-out;
+            animation: fadeIn 4s ease-in-out;
+        }
+        .button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 15px rgba(255, 75, 75, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <!-- Video Background -->
+    <video class="video-background" autoplay loop muted playsinline>
+        <source src="vedio.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay Content -->
+    <div class="overlay">
+        <h1 class="title">WELCOME TO E-PLAZZA</h1>
+        <p class="subtitle">Your one-stop destination for fashion, gaming, and skincare!</p>
+        <button class="button" onclick="window.location.href='D:\\css\\plazza.html\\practicals\\example2.html'">Start Shopping</button>
+    </div>
+</body>
+</html>

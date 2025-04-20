@@ -17,11 +17,7 @@
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Screenshots](#screenshots)
-- [How to Run Locally](#how-to-run-locally)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
+
 
 ---
 
@@ -68,3 +64,21 @@
 
 -----
 
+## SCREENSHOTS 
+
+Front page
+![image](https://github.com/user-attachments/assets/fbd387cb-99af-4e1f-80e8-043d14efd4aa)
+
+Main website
+
+
+Skincare section
+
+
+Clothing section
+
+
+Gaming section
+
+
+Feedback Form

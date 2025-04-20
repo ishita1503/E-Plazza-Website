@@ -1,6 +1,6 @@
 # 🛍️ E-Plazza – A Modern E-Commerce Web Template
 
-**E-Plazza** is a sleek and responsive e-commerce website template designed for modern-day shopping experiences. Built purely with HTML, CSS, and JavaScript, it simulates a functional online store with sections for products, categories, promotions, and navigation between multiple pages.
+**E-Plazza** is a sleek and responsive e-commerce website template designed for modern-day shopping experiences. Built purely with HTML and CSS, it simulates a functional online store with sections for products, categories, promotions, and navigation between multiple pages.
 
 ---
 

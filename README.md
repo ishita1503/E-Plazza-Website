@@ -13,6 +13,7 @@
 ## 📖 Table of Contents
 
 - [About](#about)
+- [Developed by](#developed-by)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -30,6 +31,12 @@
 - Additional pages like `example2.html` linked via the navbar
 - Clean styling with CSS and optional JavaScript interactions
 
+---  
+## 👨‍💻 Developed By
+
+- Ishita Yogesh Umbarkar   
+- Rohit Ravindra Jadhav  
+- Sayee Sagar Kashid   
 ---
 
 ## ✨ Features
